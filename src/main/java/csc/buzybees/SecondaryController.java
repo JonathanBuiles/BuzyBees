@@ -14,15 +14,15 @@ public class SecondaryController {
     @FXML
     private Button homeButton;
     @FXML
-    private Button createContractButton;
+    private Button profileButton;
     @FXML
-    private Button contractsButton;
+    private Button taskAssignmentButton;
     @FXML
-    private Button complianceDocsButton;
+    private Button scheduleButton;
     @FXML
-    private Button teamSettingsButton;
+    private Button leaveRequestButton;
     @FXML
-    private Button perksButton;
+    private Button toolsButton;
     @FXML
     private Button userSettingsButton;
     @FXML

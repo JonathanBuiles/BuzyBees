@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.VBox?>
 
-<AnchorPane prefHeight="456.0" prefWidth="324.0" stylesheets="@background.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="csc.buzybees.SecondaryController">
+<AnchorPane prefHeight="456.0" prefWidth="324.0" stylesheets="@background.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="csc.buzybees.SecondaryController">
        <children>
         <VBox alignment="CENTER" spacing="20.0">
             <padding>
@@ -24,11 +24,11 @@
             </ChoiceBox>
             <Separator />
             <Button id="homeButton" fx:id="homeButton" text="Home" />
-            <Button id="createContractButton" fx:id="createContractButton" text="Profile" />
-            <Button id="contractsButton" fx:id="contractsButton" text="Task Assignment" />
-            <Button id="complianceDocsButton" fx:id="complianceDocsButton" text="Schedule" />
-            <Button id="teamSettingsButton" fx:id="teamSettingsButton" text="Leave Request" />
-            <Button id="perksButton" fx:id="perksButton" text="Tools" />
+            <Button id="createContractButton" fx:id="profileButton" text="Profile" />
+            <Button id="contractsButton" fx:id="taskAssignmentButton" text="Task Assignment" />
+            <Button id="complianceDocsButton" fx:id="scheduleButton" text="Schedule" />
+            <Button id="teamSettingsButton" fx:id="leaveRequestButton" text="Leave Request" />
+            <Button id="perksButton" fx:id="toolsButton" text="Tools" />
             <Separator />
             <Button id="userSettingsButton" fx:id="userSettingsButton" text="User Settings" />
             <Button id="paymentMethodsButton" fx:id="paymentMethodsButton" text="Payment Methods" />
